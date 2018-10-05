@@ -76,5 +76,65 @@ namespace WindowsFormsApplication1
                     ClearAllText(c);
             }
         }
+
+        private void Checkbtn_Click(object sender, EventArgs e)
+        {
+            int parsedValue;
+            string year = txtYear.Text.ToString();
+            string month = txtMonth.Text.ToString();
+            string day = txtDay.Text.ToString();
+
+            int y = int.Parse(txtYear.Text.ToString());
+            int m = int.Parse(txtMonth.Text.ToString());
+            int d = int.Parse(txtDay.Text.ToString());
+
+            if (String.IsNullOrEmpty(txtDay.Text.ToString()) || String.IsNullOrEmpty(txtMonth.Text.ToString()) || String.IsNullOrEmpty(txtYear.Text.ToString()))
+                MessageBox.Show("Fill full information");
+            else if (!int.TryParse(txtDay.Text, out parsedValue) && int.TryParse(txtMonth.Text, out parsedValue) && int.TryParse(txtYear.Text, out parsedValue))
+            {
+                MessageBox.Show("This is a number only field");
+                return;
+            }
+            else
+            {
+                if ((d < 1 || d > 31) || (m > 12 || m < 1) || (y < 1900))
+                {
+                    MessageBox.Show("Failed");
+                    return;
+                }
+                else
+                {
+                    if ((m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12) && (d <= 31 && d > 0))
+                    {
+                        MessageBox.Show("Success");
+                        return;
+                    }
+                    else if ((m == 4 || m == 6 || m == 9 || m == 11 && (d <= 30 && d > 0)))
+                    {
+                        MessageBox.Show("Success");
+                        return;
+                    }
+                    else if (m == 2) 
+                    {
+                        if ((((y % 4 == 0) && (y % 100 != 0)) || (y % 400 == 0)) && (d < 30 && d > 0)) 
+                        {
+                            MessageBox.Show("Successful");
+                            return;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed");
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Successful");
+                        return;
+                    }
+                }
+
+            }
+        }
     }
 }

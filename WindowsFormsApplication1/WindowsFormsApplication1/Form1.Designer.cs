@@ -32,9 +32,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Clearbtn = new System.Windows.Forms.Button();
             this.Checkbtn = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtYear = new System.Windows.Forms.TextBox();
+            this.txtMonth = new System.Windows.Forms.TextBox();
+            this.txtDay = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -82,27 +82,28 @@
             this.Checkbtn.TabIndex = 10;
             this.Checkbtn.Text = "Check";
             this.Checkbtn.UseVisualStyleBackColor = true;
+            this.Checkbtn.Click += new System.EventHandler(this.Checkbtn_Click);
             // 
-            // textBox3
+            // txtYear
             // 
-            this.textBox3.Location = new System.Drawing.Point(226, 278);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(128, 22);
-            this.textBox3.TabIndex = 20;
+            this.txtYear.Location = new System.Drawing.Point(226, 278);
+            this.txtYear.Name = "txtYear";
+            this.txtYear.Size = new System.Drawing.Size(128, 22);
+            this.txtYear.TabIndex = 20;
             // 
-            // textBox2
+            // txtMonth
             // 
-            this.textBox2.Location = new System.Drawing.Point(226, 226);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 22);
-            this.textBox2.TabIndex = 19;
+            this.txtMonth.Location = new System.Drawing.Point(226, 226);
+            this.txtMonth.Name = "txtMonth";
+            this.txtMonth.Size = new System.Drawing.Size(128, 22);
+            this.txtMonth.TabIndex = 19;
             // 
-            // textBox1
+            // txtDay
             // 
-            this.textBox1.Location = new System.Drawing.Point(226, 174);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(128, 22);
-            this.textBox1.TabIndex = 18;
+            this.txtDay.Location = new System.Drawing.Point(226, 174);
+            this.txtDay.Name = "txtDay";
+            this.txtDay.Size = new System.Drawing.Size(128, 22);
+            this.txtDay.TabIndex = 18;
             // 
             // label5
             // 
@@ -152,9 +153,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(535, 416);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtYear);
+            this.Controls.Add(this.txtMonth);
+            this.Controls.Add(this.txtDay);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -177,9 +178,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Clearbtn;
         private System.Windows.Forms.Button Checkbtn;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtYear;
+        private System.Windows.Forms.TextBox txtMonth;
+        private System.Windows.Forms.TextBox txtDay;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
