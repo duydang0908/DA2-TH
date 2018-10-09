@@ -1,0 +1,19 @@
+c:\users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\bin\Debug\DateTimeChecker.exe.config
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\bin\Debug\DateTimeChecker.exe
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\bin\Debug\DateTimeChecker.pdb
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\obj\Debug\DateTimeChecker.csprojResolveAssemblyReference.cache
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\obj\Debug\DateTimeChecker.Form1.resources
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\obj\Debug\DateTimeChecker.Properties.Resources.resources
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\obj\Debug\DateTimeChecker.csproj.GenerateResource.Cache
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\obj\Debug\DateTimeChecker.exe
+C:\Users\duyda\onedrive\documents\visual studio 2015\Projects\KDCLPM\DateTimeChecker\obj\Debug\DateTimeChecker.pdb
+C:\Users\duyda\kdclpm\DateTimeChecker\bin\Debug\DateTimeChecker.exe.config
+C:\Users\duyda\kdclpm\DateTimeChecker\bin\Debug\DateTimeChecker.exe
+C:\Users\duyda\kdclpm\DateTimeChecker\bin\Debug\DateTimeChecker.pdb
+C:\Users\duyda\kdclpm\DateTimeChecker\obj\Debug\DateTimeChecker.csprojAssemblyReference.cache
+C:\Users\duyda\kdclpm\DateTimeChecker\obj\Debug\DateTimeChecker.Form1.resources
+C:\Users\duyda\kdclpm\DateTimeChecker\obj\Debug\DateTimeChecker.Properties.Resources.resources
+C:\Users\duyda\kdclpm\DateTimeChecker\obj\Debug\DateTimeChecker.csproj.GenerateResource.cache
+C:\Users\duyda\kdclpm\DateTimeChecker\obj\Debug\DateTimeChecker.csproj.CoreCompileInputs.cache
+C:\Users\duyda\kdclpm\DateTimeChecker\obj\Debug\DateTimeChecker.exe
+C:\Users\duyda\kdclpm\DateTimeChecker\obj\Debug\DateTimeChecker.pdb
